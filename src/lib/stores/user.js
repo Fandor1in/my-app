@@ -17,7 +17,7 @@ export const user = reactive({
   },
   async login(email, password) {
     await account.createEmailPasswordSession(email, password);
-    window.location.href = '/'; // Redirect to home page
+    window.location.href = '/';
   },
   async logout() {
     await account.deleteSession('current');

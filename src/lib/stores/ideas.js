@@ -2,8 +2,8 @@ import { ID, Query } from 'appwrite';
 import { databases } from '../../appwrite';
 import { reactive } from 'vue';
 
-export const IDEAS_DATABASE_ID = '<YOUR_DATABASE_ID>'; // Replace with your database ID
-export const IDEAS_COLLECTION_ID = '<YOUR_COLLECTION_ID>'; // Replace with your collection ID
+export const IDEAS_DATABASE_ID = '64c01fe574ad0b079eeb'
+export const IDEAS_COLLECTION_ID = '67cd651d0036940c885b'
 
 export const ideas = reactive({
   current: [],
